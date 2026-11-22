@@ -24,8 +24,13 @@ with open(RAW, encoding="utf-8") as handle:
 fieldnames = [COLUMNS[name] for name in lines[2].split(";")]
 rows = [dict(zip(fieldnames, line.split(";"))) for line in lines[3:]]
 
+fieldnames.append("Rating_Number")
+for row in rows:
+    rating = row["Rating"].partition("-")[0].strip()
+    row["Rating_Number"] = int(rating) if rating else ""
+
 with open(OUTPUT, "w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=fieldnames)
+    writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
 
