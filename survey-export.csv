@@ -1,33 +1,33 @@
-Response_ID,Quarter,Region,Rating,Likes_Most,Biggest_Issue,Would_Pay_More_For,Comment
-S-101,Q2,West,4 - Satisfied,GPS accuracy,Battery life,Longer battery,"GPS is spot on, but with GPS running the battery barely lasts two long trail days. I'd pay more for a version that goes a full week."
-S-102,Q3,West,5 - Very satisfied,Rugged build,No offline maps,Offline maps,Survived a fall on granite without a scratch. Offline maps would make this my only watch.
-S-103,Q4,West,3 - Neutral,No subscription,Battery life,Both,Love that there's no subscription. Battery and offline maps are the two things I'd upgrade for.
-S-104,Q2,West,4 - Satisfied,GPS accuracy,Setup and pairing,No,"Pairing with my phone took three tries. Once it worked, it's been great."
-S-105,Q3,West,2 - Dissatisfied,Rugged build,Battery life,Longer battery,Charging every two days on multi-day hikes is a dealbreaker.
-S-106,Q4,West,4 - Satisfied,Heart rate,No offline maps,Offline maps,I still carry my phone for maps. Built-in offline maps would be worth an extra $100 to me.
-S-107,Q2,West,5 - Very satisfied,GPS accuracy,None,No,Exactly what I wanted at this price.
-S-108,Q3,West,3 - Neutral,No subscription,Setup and pairing,No,"The app setup was confusing, and the store couldn't help."
-S-109,Q4,West,4 - Satisfied,Rugged build,Battery life,Longer battery,"Battery is fine for daily use, not for ultramarathons."
-S-110,Q2,West,4 - Satisfied,GPS accuracy,Strap comfort,No,The strap rubs on long runs. Otherwise solid.
-S-111,Q3,Northeast,4 - Satisfied,Heart rate,Battery life,Longer battery,"Great for training, but I charge it more often than I expected."
-S-112,Q4,Northeast,3 - Neutral,No subscription,Setup and pairing,No,It took an hour to get it syncing with my phone.
-S-113,Q2,Northeast,5 - Very satisfied,GPS accuracy,No offline maps,Both,I'd happily pay more for offline maps and a bigger battery.
-S-114,Q3,Northeast,4 - Satisfied,Rugged build,Battery life,No,Battery life is my only complaint.
-S-115,Q4,Northeast,2 - Dissatisfied,Heart rate,Setup and pairing,No,Setup kept failing. I nearly returned it.
-S-116,Q2,Northeast,4 - Satisfied,No subscription,Battery life,Longer battery,A multi-day battery would make this perfect.
-S-117,Q3,Northeast,4 - Satisfied,GPS accuracy,No offline maps,Offline maps,I need maps on the trail without a signal.
-S-118,Q4,Northeast,5 - Very satisfied,Rugged build,Battery life,Both,Best-value watch I've owned. A premium version with more battery and maps? Take my money.
-S-119,Q2,Northeast,3 - Neutral,Heart rate,Strap comfort,No,The strap gets sweaty and itchy.
-S-120,Q3,Southeast,4 - Satisfied,No subscription,Battery life,Longer battery,Humidity and long rides drain the battery fast.
-S-121,Q4,Southeast,3 - Neutral,Heart rate,Setup and pairing,No,Pairing was frustrating.
-S-122,Q2,Southeast,4 - Satisfied,Rugged build,Price,No,"Good watch, but $249 is a stretch for me."
-S-123,Q3,Southeast,4 - Satisfied,GPS accuracy,Battery life,No,The battery could be better.
-S-124,Q4,Southeast,5 - Very satisfied,No subscription,No offline maps,Offline maps,Offline maps for paddling trips would be amazing.
-S-125,Q2,Southeast,3 - Neutral,Heart rate,Setup and pairing,No,Store staff couldn't help me set it up.
-S-126,Q3,Southeast,4 - Satisfied,Rugged build,Battery life,Longer battery,I want a week of battery.
-S-127,Q4,Midwest,3 - Neutral,Step counting,Price,No,I just wanted something simple. GPS is more than I need for the price.
-S-128,Q2,Midwest,2 - Dissatisfied,Step counting,Setup and pairing,No,Too complicated to set up. I returned it.
-S-129,Q3,Midwest,3 - Neutral,No subscription,Price,No,"Nice, but I'd buy a cheaper, simpler version."
-S-130,Q4,Midwest,4 - Satisfied,Heart rate,Battery life,No,"Works well, and the battery is okay."
-S-131,Q2,Midwest,3 - Neutral,Step counting,Price,No,Too expensive for what I use it for.
-S-132,Q3,Midwest,3 - Neutral,Rugged build,Price,No,I'd pay $150 for a basic version.
+Response_ID,Quarter,Region,Rating,Likes_Most,Biggest_Issue,Would_Pay_More_For,Comment,Rating_Number
+S-101,Q2,West,4 - Satisfied,GPS accuracy,Battery life,Longer battery,"GPS is spot on, but with GPS running the battery barely lasts two long trail days. I'd pay more for a version that goes a full week.",4
+S-102,Q3,West,5 - Very satisfied,Rugged build,No offline maps,Offline maps,Survived a fall on granite without a scratch. Offline maps would make this my only watch.,5
+S-103,Q4,West,3 - Neutral,No subscription,Battery life,Both,Love that there's no subscription. Battery and offline maps are the two things I'd upgrade for.,3
+S-104,Q2,West,4 - Satisfied,GPS accuracy,Setup and pairing,No,"Pairing with my phone took three tries. Once it worked, it's been great.",4
+S-105,Q3,West,2 - Dissatisfied,Rugged build,Battery life,Longer battery,Charging every two days on multi-day hikes is a dealbreaker.,2
+S-106,Q4,West,4 - Satisfied,Heart rate,No offline maps,Offline maps,I still carry my phone for maps. Built-in offline maps would be worth an extra $100 to me.,4
+S-107,Q2,West,5 - Very satisfied,GPS accuracy,None,No,Exactly what I wanted at this price.,5
+S-108,Q3,West,3 - Neutral,No subscription,Setup and pairing,No,"The app setup was confusing, and the store couldn't help.",3
+S-109,Q4,West,4 - Satisfied,Rugged build,Battery life,Longer battery,"Battery is fine for daily use, not for ultramarathons.",4
+S-110,Q2,West,4 - Satisfied,GPS accuracy,Strap comfort,No,The strap rubs on long runs. Otherwise solid.,4
+S-111,Q3,Northeast,4 - Satisfied,Heart rate,Battery life,Longer battery,"Great for training, but I charge it more often than I expected.",4
+S-112,Q4,Northeast,3 - Neutral,No subscription,Setup and pairing,No,It took an hour to get it syncing with my phone.,3
+S-113,Q2,Northeast,5 - Very satisfied,GPS accuracy,No offline maps,Both,I'd happily pay more for offline maps and a bigger battery.,5
+S-114,Q3,Northeast,4 - Satisfied,Rugged build,Battery life,No,Battery life is my only complaint.,4
+S-115,Q4,Northeast,2 - Dissatisfied,Heart rate,Setup and pairing,No,Setup kept failing. I nearly returned it.,2
+S-116,Q2,Northeast,4 - Satisfied,No subscription,Battery life,Longer battery,A multi-day battery would make this perfect.,4
+S-117,Q3,Northeast,4 - Satisfied,GPS accuracy,No offline maps,Offline maps,I need maps on the trail without a signal.,4
+S-118,Q4,Northeast,5 - Very satisfied,Rugged build,Battery life,Both,Best-value watch I've owned. A premium version with more battery and maps? Take my money.,5
+S-119,Q2,Northeast,3 - Neutral,Heart rate,Strap comfort,No,The strap gets sweaty and itchy.,3
+S-120,Q3,Southeast,4 - Satisfied,No subscription,Battery life,Longer battery,Humidity and long rides drain the battery fast.,4
+S-121,Q4,Southeast,3 - Neutral,Heart rate,Setup and pairing,No,Pairing was frustrating.,3
+S-122,Q2,Southeast,4 - Satisfied,Rugged build,Price,No,"Good watch, but $249 is a stretch for me.",4
+S-123,Q3,Southeast,4 - Satisfied,GPS accuracy,Battery life,No,The battery could be better.,4
+S-124,Q4,Southeast,5 - Very satisfied,No subscription,No offline maps,Offline maps,Offline maps for paddling trips would be amazing.,5
+S-125,Q2,Southeast,3 - Neutral,Heart rate,Setup and pairing,No,Store staff couldn't help me set it up.,3
+S-126,Q3,Southeast,4 - Satisfied,Rugged build,Battery life,Longer battery,I want a week of battery.,4
+S-127,Q4,Midwest,3 - Neutral,Step counting,Price,No,I just wanted something simple. GPS is more than I need for the price.,3
+S-128,Q2,Midwest,2 - Dissatisfied,Step counting,Setup and pairing,No,Too complicated to set up. I returned it.,2
+S-129,Q3,Midwest,3 - Neutral,No subscription,Price,No,"Nice, but I'd buy a cheaper, simpler version.",3
+S-130,Q4,Midwest,4 - Satisfied,Heart rate,Battery life,No,"Works well, and the battery is okay.",4
+S-131,Q2,Midwest,3 - Neutral,Step counting,Price,No,Too expensive for what I use it for.,3
+S-132,Q3,Midwest,3 - Neutral,Rugged build,Price,No,I'd pay $150 for a basic version.,3
