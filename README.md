@@ -1,4 +1,4 @@
-# Pulse survey import
+# CR-200 survey import
 
 SurveyPoint, the platform the customer survey runs on, has no integration worth using. It emails a
 raw dump instead: semicolon-delimited, two preamble lines, and columns named `q1` to `q5`.

@@ -3,8 +3,9 @@ import csv
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RAW = os.path.join(HERE, "vendor-exports", "pulse-survey-FY2026-raw.csv")
-OUTPUT = os.path.join(HERE, "survey-export.csv")
+RAW = os.path.join(HERE, "vendor-exports", "cr200-survey-FY2026-raw.csv")
+OUTPUT_DIR = "/workspace/outputs"
+OUTPUT = os.path.join(OUTPUT_DIR, "survey-export.csv")
 
 # SurveyPoint writes two preamble lines, separates with semicolons, and names its columns q1 to q5.
 COLUMNS = {
@@ -24,6 +25,7 @@ with open(RAW, encoding="utf-8") as handle:
 fieldnames = [COLUMNS[name] for name in lines[2].split(";")]
 rows = [dict(zip(fieldnames, line.split(";"))) for line in lines[3:]]
 
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 with open(OUTPUT, "w", newline="", encoding="utf-8") as handle:
     writer = csv.DictWriter(handle, fieldnames=fieldnames)
     writer.writeheader()
